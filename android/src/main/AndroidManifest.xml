@@ -11,16 +11,4 @@
       <data android:scheme="mailto" />
     </intent>
   </queries>
-
-  <application>
-    <activity
-      android:name="io.flutter.embedding.android.FlutterActivity"
-      android:exported="true"
-      android:theme="@style/Theme.AppCompat">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
-  </application>
 </manifest>
